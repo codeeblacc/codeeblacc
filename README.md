@@ -9,7 +9,7 @@ Systems engineer and Developer
 ## Skills
 <div align=right>
     <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img width=325 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeeblacc&langs_count=20&theme=highcontrast&layout=compact&custom_title=Used Languages on Github" />
+      <img width=325 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeeblacc&langs_count=10&theme=highcontrast&layout=compact&custom_title=Used Languages on Github" />
     </a>
 </div>
 
