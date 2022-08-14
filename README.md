@@ -1,30 +1,134 @@
-### 👋 Hi there, I'm Dycode!
+# Codee Blacc
+Systems engineer and Developer  
+10+ years of experience in digitalization and automations 
 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/dycode999)](https://github.com/dycode999)
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/dycode999/)](https://www.linkedin.com/in/dycode999/)
-[![Instagram Badge](https://img.shields.io/badge/-Instagram-BF008C?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/dycode999)](https://www.instagram.com/dycode999) 
+[E-mail](mailto:codeeblacc@gmail.com) | [LinkedIn](https://www.linkedin.com/in/codeeblacc/) | [Facebook](https://www.facebook.com/codeeblacc/) | [Instagram](https://www.instagram.com/codeeblacc/) | [Twitter](https://twitter.com/codeeblacc) | [Telegram](https://www.youtube.com/channel/codeeblacc) | [GitHub](https://github.com/codeeblacc)
 
-- :office: I’m currently working on [CI&T](https://ciandt.com/) as a System Analyst. 
+[See website for more information](https://calendly.com/sudip-mondal-2002/15min)
 
-- :mortar_board: I'm certified as Computer Technician - [Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte](https://portal.ifrn.edu.br/).
+## Skills
+<div align=right>
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+      <img width=325 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeeblacc&langs_count=20&theme=highcontrast&layout=compact&custom_title=Used Languages on Github" />
+    </a>
+</div>
 
-- :mortar_board: Graduating in Information Technology - [Universidade Federal do Rio Grande do Norte](https://www.ufrn.br/).
+* Full Stack Web Development
+* DevOps Engineering
+* Penetration Testing
+* Android & IOS Development
+* Desktop GUI development
+* Concept Prototyping
+* Most used Languages: Python, JavaScript, Dart.
+* Version Control System
+<br>
 
-### Languages and Tools:
-<img align="left" alt="Java" width="26px" src="https://user-images.githubusercontent.com/38151364/109068896-3b4ad580-76cf-11eb-80f4-a94a55520d51.png" />
-<img align="left" alt="Flutter" width="26px" src="https://user-images.githubusercontent.com/38151364/109069158-98468b80-76cf-11eb-9385-e4f3dd2217ab.png" />
-<img align="left" alt="Dart" width="26px" src="https://user-images.githubusercontent.com/38151364/89708917-6f3bf480-d951-11ea-90a5-589b91233f7e.png" />
-<img align="left" alt="Python" width="26px" src="https://user-images.githubusercontent.com/38151364/89708860-1bc9a680-d951-11ea-8b0a-cf2d9d7c6edf.png" />
-<img align="left" alt="C" width="26px" src="https://user-images.githubusercontent.com/38151364/89708902-4ca9db80-d951-11ea-9a2f-e81e66fb4d0d.png" />
-<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img align="left" alt="TypeScript" width="26px" src="https://user-images.githubusercontent.com/38151364/89708934-a7dbce00-d951-11ea-8ff1-1b7991267c05.png" />
-<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-<img align="left" alt="Node.js" width="26px" src="https://user-images.githubusercontent.com/38151364/89709011-5718a500-d952-11ea-8b62-cbba56cbe1cd.png" />
-<img align="left" alt="MySQL" width="26px" src="https://user-images.githubusercontent.com/38151364/109069401-f1aeba80-76cf-11eb-9278-6c339fe1d6f0.png" />
-<img align="left" alt="Postgresql" width="26px" src="https://user-images.githubusercontent.com/38151364/89708990-2b95ba80-d952-11ea-82b3-03bde22c56ef.png" />
-<img align="left" alt="Git" width="26px" src="https://user-images.githubusercontent.com/38151364/109069510-12771000-76d0-11eb-9d29-51c7826848db.png" />
-<img align="left" alt="shell" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
-<br />
-<br />
+[![Codeeblacc's github activity graph](https://activity-graph.herokuapp.com/graph?username=codeeblacc&theme=xcode)](https://git.io/codeeblacc)
+<br>
+
+## Tools and Technologies
+<p align="left">
+    <a href="https://developer.android.com/studio" target="_blank" title ="android studio"> <img
+            src="https://2.bp.blogspot.com/-tzm1twY_ENM/XlCRuI0ZkRI/AAAAAAAAOso/BmNOUANXWxwc5vwslNw3WpjrDlgs9PuwQCLcBGAsYHQ/s1600/pasted%2Bimage%2B0.png"
+            alt="android studio" width="20" height="20" /> </a>
+    <a href="https://angular.io/" target="_blank" title ="Angular"> <img
+            src="https://brandslogos.com/wp-content/uploads/thumbs/angular-logo-vector.svg"
+            alt="angular" width="20" height="20" /> </a>
+    <a href="https://aws.amazon.com/" target="_blank" title ="AWS"> <img
+            src="https://mk0futurumreseabr7pm.kinstacdn.com/wp-content/uploads/2020/01/aws-logo.png"
+            alt="aws" width="20" height="20" /> </a>
+    <a href="https://getbootstrap.com" target="_blank" title ="bootstrap"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+            alt="bootstrap" width="20" height="20" /> </a>
+    <a href="https://bootstrapstudio.io/" target="_blank" title ="bootstrap studio"> <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Bootstrap_Studio_Logo.png/768px-Bootstrap_Studio_Logo.png"
+            alt="bootstrap studio" width="20" height="20" /> </a>
+    <a href="https://www.cprogramming.com/" target="_blank" title ="C"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="20"
+            height="20" /> </a>
+    <a href="https://www.w3schools.com/cpp/" target="_blank" title ="C++"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+            alt="cplusplus" width="20" height="20" /> </a>
+    <a href="https://www.w3schools.com/css/" target="_blank" title ="CSS">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+            alt="css3" width="20" height="20" /> </a>
+    <a href="https://ejs.co/" target="_blank" title ="EJS"> <img
+            src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_ejs_icon_130626.png" alt="Ejs" width="20"
+            height="20" /> </a>
+    <a href="https://expressjs.com" target="_blank" title ="Express.js"> <img
+            src="https://cdn.buttercms.com/8am8PZECScDawQa33Lv2"
+            alt="express" width="20" height="20" /> </a>
+    <a href="https://git-scm.com/" target="_blank" title ="git"> <img
+            src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="20" height="20" /> </a>
+    <a href="https://heroku.com" target="_blank" title ="heroku"> 
+        <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
+            alt="heroku" width="20" height="20" /> </a>
+    <a href="https://www.w3.org/html/" target="_blank" title ="html"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+            alt="html5" width="20" height="20" /> </a>
+    <a href="https://ionicframework.com/" target="_blank" title ="Ionic"> <img
+            src="https://cdn-images-1.medium.com/max/1000/1*ZU1eWct801yP-QpUJOaI6Q.png"
+            alt="ionic" width="20" height="20" /> </a>
+    <a href="https://www.java.com/en/" target="_blank" title ="java"> <img
+            src="https://www.oracle.com/a/ocom/img/obic-java-cup.svg"
+            alt="java" width="20" height="20" /> </a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title ="JavaScript"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+            alt="javascript" width="20" height="20" /> </a>
+    <a href="https://jwt.io/" target="_blank" title ="JWT"> <img
+            src="https://jwt.io/img/pic_logo.svg"
+            alt="JWT" width="20" height="20" /> </a>
+    <a href="https://www.mongodb.com/" target="_blank" title ="MongoDB"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+            alt="mongodb" width="20" height="20" /> </a>
+    <a href="https://nodejs.org" target="_blank" title ="Node.js"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+            alt="nodejs" width="20" height="20" /> </a>
+    <a href="https://postman.com" target="_blank" title ="Postman"> <img
+            src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="20"
+            height="20" /> </a>
+    <a href="https://www.python.org" target="_blank" title ="Python"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+            alt="python" width="20" height="20" /> </a>
+    <a href="https://reactjs.org/" target="_blank" title ="React.js"> <img
+            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+            alt="react" width="20" height="20" /> </a>
+    <a href="https://wiki.python.org/moin/TkInter" target="_blank" title ="Tkinter"> <img
+            src="https://i2.wp.com/iot4beginners.com/wp-content/uploads/2020/04/65dc5834-de21-4e2e-bd4d-5e0c3c6994dd.jpg?fit=375%2C422&ssl=1"
+            alt="tkinter" width="20" height="20" /> </a>
+    <a href="https://www.typescriptlang.org/" target="_blank" title ="Typescript"> <img
+            src="https://cdn.iconscout.com/icon/free/png-512/typescript-1174965.png"
+            alt="typescript" width="20" height="20" /> </a>
+    <a href="https://www.unrealengine.com/en-US/" target="_blank" title ="Unreal Engine"> <img
+            src="https://user-images.githubusercontent.com/16515307/33282121-0309b13a-d3eb-11e7-84b0-6d322ca89a5a.png"
+            alt="unreal engine" width="20" height="20" /> </a>
+    <a href="https://www.xml.com/" target="_blank" title ="XML"> <img
+            src="https://cdn.iconscout.com/icon/free/png-512/xml-file-2330558-1950399.png"
+            alt="XML" width="20" height="20" /> </a>
+</p>
+<br>
+<!-- 
+## Most used Technologies
+[![Python Badge](https://img.shields.io/badge/-Python-black?style=flat&logo=Python&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Django Badge](https://img.shields.io/badge/-Django-black?style=flat&logo=Django&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Scala Badge](https://img.shields.io/badge/-Scala-black?style=flat&logo=Scala&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Pandas Badge](https://img.shields.io/badge/-Pandas-black?style=flat&logo=pandas&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Plotly Badge](https://img.shields.io/badge/-Plotly-black?style=flat&logo=Plotly&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Anaconda Badge](https://img.shields.io/badge/-Anaconda-black?style=flat&logo=Anaconda&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Jupyter Badge](https://img.shields.io/badge/-Jupyter-black?style=flat&logo=Jupyter&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![NumPy Badge](https://img.shields.io/badge/-NumPy-black?style=flat&logo=NumPy&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Databricks Badge](https://img.shields.io/badge/-Databricks-black?style=flat&logo=Databricks&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Metabase Badge](https://img.shields.io/badge/-Metabase-black?style=flat&logo=Metabase&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Docker Badge](https://img.shields.io/badge/-Docker-black?style=flat&logo=Docker&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Kubernetes Badge](https://img.shields.io/badge/-Kubernetes-black?style=flat&logo=Kubernetes&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Git Badge](https://img.shields.io/badge/-Git-black?style=flat&logo=Git&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Linux Badge](https://img.shields.io/badge/-Linux-black?style=flat&logo=Linux&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Apache Spark Badge](https://img.shields.io/badge/-ApacheCassandra-black?style=flat&logo=ApacheCassandra&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Apache Cassandra Badge](https://img.shields.io/badge/-animus-black?style=flat&logo=Python&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Elasticsearch Badge](https://img.shields.io/badge/-Elasticsearch-black?style=flat&logo=Elasticsearch&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Elastic Badge](https://img.shields.io/badge/-Elastic-black?style=flat&logo=Elastic&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Amazon AWS Badge](https://img.shields.io/badge/-AmazonAWS-black?style=flat&logo=AmazonAWS&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Google Cloud Badge](https://img.shields.io/badge/-GoogleCloud-black?style=flat&logo=GoogleCloud&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Google Colab Badge](https://img.shields.io/badge/-GoogleColab-black?style=flat&logo=GoogleColab&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Kaggle Badge](https://img.shields.io/badge/-Kaggle-black?style=flat&logo=Kaggle&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
+[![Tableau Badge](https://img.shields.io/badge/-Tableau-black?style=flat&logo=Tableau&logoColor=green&link=https://www.linkedin.com/in/animus/)]() -->
