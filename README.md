@@ -7,11 +7,11 @@ Systems engineer and Developer
 [See website for more information](https://calendly.com/sudip-mondal-2002/15min)
 
 ## Skills
-<div align=right>
+<!-- <div align=right>
     <a href="https://github.com/anuraghazra/github-readme-stats">
       <img width=325 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeeblacc&langs_count=10&theme=highcontrast&layout=compact&custom_title=Used Languages on Github" />
     </a>
-</div>
+</div> -->
 
 * Full Stack Web Development
 * DevOps Engineering
@@ -107,28 +107,3 @@ Systems engineer and Developer
             alt="XML" width="20" height="20" /> </a>
 </p>
 <br>
-<!-- 
-## Most used Technologies
-[![Python Badge](https://img.shields.io/badge/-Python-black?style=flat&logo=Python&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Django Badge](https://img.shields.io/badge/-Django-black?style=flat&logo=Django&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Scala Badge](https://img.shields.io/badge/-Scala-black?style=flat&logo=Scala&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Pandas Badge](https://img.shields.io/badge/-Pandas-black?style=flat&logo=pandas&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Plotly Badge](https://img.shields.io/badge/-Plotly-black?style=flat&logo=Plotly&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Anaconda Badge](https://img.shields.io/badge/-Anaconda-black?style=flat&logo=Anaconda&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Jupyter Badge](https://img.shields.io/badge/-Jupyter-black?style=flat&logo=Jupyter&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![NumPy Badge](https://img.shields.io/badge/-NumPy-black?style=flat&logo=NumPy&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Databricks Badge](https://img.shields.io/badge/-Databricks-black?style=flat&logo=Databricks&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Metabase Badge](https://img.shields.io/badge/-Metabase-black?style=flat&logo=Metabase&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Docker Badge](https://img.shields.io/badge/-Docker-black?style=flat&logo=Docker&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Kubernetes Badge](https://img.shields.io/badge/-Kubernetes-black?style=flat&logo=Kubernetes&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Git Badge](https://img.shields.io/badge/-Git-black?style=flat&logo=Git&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Linux Badge](https://img.shields.io/badge/-Linux-black?style=flat&logo=Linux&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Apache Spark Badge](https://img.shields.io/badge/-ApacheCassandra-black?style=flat&logo=ApacheCassandra&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Apache Cassandra Badge](https://img.shields.io/badge/-animus-black?style=flat&logo=Python&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Elasticsearch Badge](https://img.shields.io/badge/-Elasticsearch-black?style=flat&logo=Elasticsearch&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Elastic Badge](https://img.shields.io/badge/-Elastic-black?style=flat&logo=Elastic&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Amazon AWS Badge](https://img.shields.io/badge/-AmazonAWS-black?style=flat&logo=AmazonAWS&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Google Cloud Badge](https://img.shields.io/badge/-GoogleCloud-black?style=flat&logo=GoogleCloud&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Google Colab Badge](https://img.shields.io/badge/-GoogleColab-black?style=flat&logo=GoogleColab&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Kaggle Badge](https://img.shields.io/badge/-Kaggle-black?style=flat&logo=Kaggle&logoColor=green&link=https://www.linkedin.com/in/animus/)]()
-[![Tableau Badge](https://img.shields.io/badge/-Tableau-black?style=flat&logo=Tableau&logoColor=green&link=https://www.linkedin.com/in/animus/)]() -->
