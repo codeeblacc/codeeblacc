@@ -11,7 +11,7 @@
 
 body {
   color: white;
-  background: #0C0C0C;
+  background: #0A0A0A;
   font-size: .8rem;
   line-height: 1.2rem;
 }
@@ -21,24 +21,81 @@ a {
   text-decoration: none;
 }
 
-button, .btn {
+button, .button {
   border: none;
   padding: 8px 12px;
   padding-top: 6px;
   cursor: pointer;
+  transition: .2s ease-in-out;
+  position: relative;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 100px;
   color: white;
+  overflow: hidden;
 }
 
 .primary {
   background: var(--base-color);
 }
 
+.secondary {
+  background: #546BFF10;
+  color: var(--base-color);
+}
+
+.button.primary:focus::before, .button.secondary:focus::before {
+  content: '';
+  position: absolute;
+  transition: .2s ease-in-out;
+  width: 100%;
+  height: 100%;
+  background: var(--base-color);
+}
+
+.button.secondary:focus {
+  color: transparent;
+}
+
+.button.secondary:focus::before {
+  background: #546BFF10;
+}
+
+.button.primary:focus::after, .button.secondary:focus::after {
+  content: '';
+  position: absolute;
+  transition: .2s ease-in-out;
+  width: 15px;
+  height: 15px;
+  border: 1px solid white;
+  border-right: 1px solid transparent;
+  border-radius: 100px;
+  animation: spin 1s linear infinite;
+}
+
+.button.secondary:focus::after {
+  border: 1px solid var(--base-color);
+  border-right: 1px solid transparent;
+}
+
 header {
   height: 80px;
+  width: 100%;
+  position: fixed;
   display: flex;
+  transition: .2s ease-in-out;
   align-items: center;
+  background: #0A0A0Aec;
+}
+
+header.stick {
+  height: 50px;
+}
+
+header .slick {
+  transition: .2s ease-in-out;
 }
 
 header nav {
@@ -66,6 +123,10 @@ header ul li a svg, footer a svg{
   width: 15px;
   transform: translateY(-2px);
   transition: .2s ease-in-out;
+}
+
+footer a svg {
+  width: 10px;
 }
 
 header ul li a:hover {
@@ -128,6 +189,10 @@ footer {
 
 .smoke-text {
   color: grey;
+}
+
+.link.color {
+  color: var(--base-color);
 }
 
 .link:hover {

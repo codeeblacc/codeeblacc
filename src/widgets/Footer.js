@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpCircle } from 'react-feather';
+import { ArrowUpCircle, Bell } from 'react-feather';
 
 export default function Footer() {
   const handleTop = () => { window.scrollTo(0,0); }
@@ -14,7 +14,7 @@ export default function Footer() {
           </div>
           <div className="large-2 flex center-align justify-space-between">
             <p>Let's work together</p>
-            <button className="button primary">Connect</button>
+            <Link to="#" className="link">Notify me</Link>
           </div>
           <div className="large-1"></div>
           <div className="large-3 flex center-align">

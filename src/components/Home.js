@@ -19,7 +19,8 @@ export class Home extends React.Component {
     return (
       <section id="home">
         <Header />
-        <Jumboo header="Selected work" span="2021" subheader="- Present Day" content="Hello - I'm a Multidisciplinary Software Designer & Developer. I craft exquisite experiences with great peoplse." />
+        <div className="header-break"></div>
+        <Jumboo header="Selected work" span="2021" subheader="- Present Day" content="Hello - I'm a Multidisciplinary Software Designer & Developer. I craft exquisite experiences with great people." />
         <div className="container">
           {castList}
         </div>

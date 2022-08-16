@@ -7,11 +7,16 @@ import { getDate } from '../utils.js';
 export default function Header() {
   var date = getDate(new Date());
   const header = useRef(0);
+  const slick = useRef(0);
 
   useEffect(() => {
     window.onscroll = () => {
-      if (window.pageYOffset > header.current.offsetTop) {
+      if (window.pageYOffset > 80) {
+        header.current.classList.add("stick");
+        slick.current.style = "position:absolute; opacity: 0";
       } else {
+        header.current.classList.remove("stick");
+        slick.current.removeAttribute('style');
       }
     }
   }, []);
@@ -24,7 +29,7 @@ export default function Header() {
               <Link to="/" className="brand">Codee Blacc</Link>
             </div>
             <div className="column large-3 medium-3 hide-on-med-and-small">
-              <Link to="/" className="brand">Africa, NG <br />Software Engineer & Developer</Link>
+              <Link to="/" className="brand"><span className="slick" ref={slick}>Africa, Nigeria<br /></span>Software Engineer & Developer</Link>
             </div>
             <div className="column large-5 medium-4 hide-on-small-only">
               <ul>
