@@ -1,17 +1,17 @@
 # Codee Blacc
 Systems engineer and Developer  
-10+ years of experience in digitalization and automations 
+10+ years of experience in digitalization and automations
 
 [E-mail](mailto:codeeblacc@gmail.com) | [LinkedIn](https://www.linkedin.com/in/codeeblacc/) | [Facebook](https://www.facebook.com/codeeblacc/) | [Instagram](https://www.instagram.com/codeeblacc/) | [Twitter](https://twitter.com/codeeblacc) | [Telegram](https://www.youtube.com/channel/codeeblacc) | [GitHub](https://github.com/codeeblacc)
 
 [See website for more information](https://calendly.com/sudip-mondal-2002/15min)
 
 ## Skills
-<!-- <div align=right>
+<div align=right>
     <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img width=325 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeeblacc&langs_count=10&theme=highcontrast&layout=compact&custom_title=Used Languages on Github" />
+      <img width=325 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeeblacc&langs_count=10&theme=radical&layout=compact&custom_title=Used Languages on Github" />
     </a>
-</div> -->
+</div>
 
 * Full Stack Web Development
 * DevOps Engineering
@@ -60,7 +60,7 @@ Systems engineer and Developer
             alt="express" width="20" height="20" /> </a>
     <a href="https://git-scm.com/" target="_blank" title ="git"> <img
             src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="20" height="20" /> </a>
-    <a href="https://heroku.com" target="_blank" title ="heroku"> 
+    <a href="https://heroku.com" target="_blank" title ="heroku">
         <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg"
             alt="heroku" width="20" height="20" /> </a>
     <a href="https://www.w3.org/html/" target="_blank" title ="html"> <img

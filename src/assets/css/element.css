@@ -11,7 +11,7 @@
 
 body {
   color: white;
-  background: black;
+  background: #0C0C0C;
   font-size: .8rem;
   line-height: 1.2rem;
 }
@@ -19,6 +19,20 @@ body {
 a {
   color: white;
   text-decoration: none;
+}
+
+button, .btn {
+  border: none;
+  padding: 8px 12px;
+  padding-top: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 100px;
+  color: white;
+}
+
+.primary {
+  background: var(--base-color);
 }
 
 header {
@@ -40,7 +54,7 @@ header ul {
   display: flex;
 }
 
-header ul li a {
+header ul li a, footer a {
   display: flex;
 }
 
@@ -48,7 +62,7 @@ header ul li {
   margin-right: 20px;
 }
 
-header ul li a svg {
+header ul li a svg, footer a svg{
   width: 15px;
   transform: translateY(-2px);
   transition: .2s ease-in-out;
@@ -59,12 +73,20 @@ header ul li a:hover {
 }
 
 header ul li a:hover svg {
-  color: grey !inherit;
   transform: rotate(45deg) translate(-2px, -0.5px);
+}
+
+footer {
+  height: 80px;
 }
 
 .container {
   width: 80%;
+  margin: auto;
+}
+
+.sm-container {
+  width: 90%;
   margin: auto;
 }
 
@@ -83,4 +105,31 @@ header ul li a:hover svg {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 44px;
+  line-height: 48px;
+  -webkit-text-stroke: 1px;
+}
+
+.heading {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.smoke-text {
+  color: grey;
+}
+
+.link:hover {
+  color: var(--base-color);
 }

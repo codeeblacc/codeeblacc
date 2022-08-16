@@ -1,4 +1,8 @@
 :root {
-  --base-color: #8594FF;
+  --base-color: #546BFF;
   --smoke-color: rgba(245, 247, 255, .2);
+}
+
+@keyframes percentageZero {
+  0% { width: 0 }
 }
