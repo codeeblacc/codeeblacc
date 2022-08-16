@@ -1,0 +1,42 @@
+.nav-action-img {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  position: relative;
+  background-color: var(--smoke-color);
+  background-image: url(../images/me.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.nav-action-img:hover {
+  background-color: rgba(225, 225, 225, .5)
+}
+
+.nav-action-img:hover::before {
+  content: '@codee';
+  position: absolute;
+  background: var(--base-color);
+  z-index: -1;
+  animation: fadeInDown .2s ease-in-out;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .7rem;
+  line-height: .7rem;
+  height: 24px;
+  width: 53px;
+  top: 60px;
+  bottom: 0;
+  left: -12%;
+  margin: auto;
+  margin: auto;
+}
+
+@import "./responsive.css";
