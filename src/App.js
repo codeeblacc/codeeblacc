@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import { Home } from './components/Home';
 
+import 'animate.css';
 import './assets/css/element.css';
 import './assets/css/base.css';
 
