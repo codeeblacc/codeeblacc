@@ -1,4 +1,5 @@
 @import "../fonts/font.css";
+@import 'variables.css';
 
 * {
   font-family: 'FontRegular';
@@ -6,4 +7,80 @@
   padding: 0;
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: red;
+}
+
+body {
+  color: white;
+  background: black;
+  font-size: .8rem;
+  line-height: 1.2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  width: 100%;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul li a {
+  display: flex;
+}
+
+header ul li {
+  margin-right: 20px;
+}
+
+header ul li a svg {
+  width: 15px;
+  transform: translateY(-2px);
+  transition: .2s ease-in-out;
+}
+
+header ul li a:hover {
+  color: grey;
+}
+
+header ul li a:hover svg {
+  color: grey !inherit;
+  transform: rotate(45deg) translate(-2px, -0.5px);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.center-align {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
