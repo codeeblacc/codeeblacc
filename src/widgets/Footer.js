@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowUpCircle, Bell } from 'react-feather';
+import { ArrowUpCircle } from 'react-feather';
 
 export default function Footer() {
   const handleTop = () => { window.scrollTo(0,0); }

@@ -7,11 +7,11 @@ Systems engineer and Developer
 [See website for more information](https://calendly.com/sudip-mondal-2002/15min)
 
 ## Skills
-<div align=right>
+<!-- <div align=right>
     <a href="https://github.com/anuraghazra/github-readme-stats">
       <img width=325 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeeblacc&langs_count=10&theme=radical&layout=compact&custom_title=Used Languages on Github" />
     </a>
-</div>
+</div> -->
 
 * Full Stack Web Development
 * DevOps Engineering
