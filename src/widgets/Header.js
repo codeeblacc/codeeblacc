@@ -2,12 +2,14 @@ import { React, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'react-feather';
 
-import { getDate } from '../utils.js';
-
 export default function Header() {
-  var date = getDate(new Date());
   const header = useRef(0);
   const slick = useRef(0);
+  const menu = useRef(0);
+  const sidemenu = useRef(0);
+  const body = document.querySelector('body');
+
+  let open = false;
 
   useEffect(() => {
     try {
@@ -21,13 +23,28 @@ export default function Header() {
         }
       }
     } catch (error) { return; }
+
+    menu.current.addEventListener("click", () => {
+      if (open === false) {
+        menu.current.classList.add('open');
+        sidemenu.current.style.left = "0";
+        body.style.overflow = "hidden";
+        open = true;
+      } else {
+        menu.current.classList.remove('open');
+        sidemenu.current.removeAttribute('style');
+        body.removeAttribute('style');
+        open = false;
+      }
+    });
   }, [header]);
 
   return (
     <header ref={header}>
       <div className="container">
           <div className="row center-align">
-            <div className="column large-2 medium-4 small-6">
+            <div className="column large-2 medium-4 small-6 flex center-align">
+              <div className="menu hide-on-med-and-large" ref={menu}></div>
               <Link to="/#iLuGNmW" className="brand">Codee Blacc</Link>
             </div>
             <div className="column large-3 medium-3 hide-on-med-and-small">
@@ -43,9 +60,29 @@ export default function Header() {
               </ul>
             </div>
             <div className="column large-2 medium-4 small-6 flex center-align justify-end">
-              <div className="nav-action-img" data-content={date}></div>
+              <div className="nav-action-img" data-content="menu"></div>
             </div>
           </div>
+      </div>
+      <div className="sidemenu" ref={sidemenu}>
+        <div className="container">
+          <div className="header-break"></div>
+          <p>Africa, Ghana<br />Software Designer & Developer</p>
+          <div className="modal-header-bar"></div>
+          <br />
+          <p className="smoke-text">contacts</p>
+          <ul>
+            <li><a href="mailto:codeeblacc@gmail.com">Email</a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://github.com/codeeblacc">Github</a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://instagram.com/codeeblacc">Instagram</a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://t.me/codeeblacc">Telegram</a></li>
+            <li><a target="_blank" rel="noreferrer" href="/resume.pdf" download>Resume.cv</a></li>
+          </ul>
+          <div className="footer flex justify-space-between">
+            <p><span className="smoke-text">&copy; { new Date().getFullYear() }</span> codeeblacc. All rights reserved.</p>
+            <span>@codee</span>
+          </div>
+        </div>
       </div>
     </header>
   )

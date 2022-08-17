@@ -92,10 +92,10 @@ export class Footer extends React.Component {
           <div className="modal-box animate__animated animate__slideInDown">
             <div className="modal-box-content">
               <div className="flex justify-space-between">
-                <p className="smoke-text">conenct</p>
+                <p className="smoke-text">connect</p>
                 <div className="close" onClick={this.handleModalClose}></div>
               </div>
-              <div className="title">Let's get in touch</div>
+              <div className="title">Let's Get in touch</div>
               <div className="modal-header-bar"></div>
               <form method="POST" onSubmit={this.handleSubmit}>
                 <div className="form-input">

@@ -9,7 +9,7 @@ export default function Jumboo({header, span, subheader, content, alt}) {
           <div className="large-3 medium-4 small-12">
             {header} <br /><span className="smoke-text">{span}</span> {subheader}
           </div>
-          <div className="large-7 medium-7 small-12">
+          <div className="large-7 medium-8 small-12">
             <div className="mts"></div>
             <div className="h1">
               { content }
