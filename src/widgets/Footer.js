@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { message } from '../actions/message';
 import { ArrowUpRight } from 'react-feather';
 
 export class Footer extends React.Component {
@@ -30,7 +31,7 @@ export class Footer extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    console.log(this.state);
+    document.querySelector('button[type=submit]').focus();
   }
 
   render() {
