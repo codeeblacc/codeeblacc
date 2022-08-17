@@ -4,7 +4,7 @@ Having over 6+ years of experience in Software and Design
 
 [E-mail](mailto:codeeblacc@gmail.com) | [LinkedIn](https://www.linkedin.com/in/codeeblacc/) | [Facebook](https://www.facebook.com/codeeblacc/) | [Instagram](https://www.instagram.com/codeeblacc/) | [Twitter](https://twitter.com/codeeblacc) | [Telegram](https://www.youtube.com/channel/codeeblacc) | [GitHub](https://github.com/codeeblacc)
 
-[See website for more information](https://calendly.com/sudip-mondal-2002/15min)
+[See website for more information](https://codeeblacc.web.app)
 
 ## Skills
 <!-- <div align=right>
