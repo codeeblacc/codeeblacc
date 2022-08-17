@@ -10,7 +10,7 @@ export default function CStudi({c}) {
             <div className="column large-3 small-12">
               <p className="smoke-text">{c['year']}</p>
             </div>
-            <div className="column large-9 small-12">
+            <div className="column large-9 small-12 mts">
               <Link to={`/cases/${c['slug']}`} className="casebox-link">{c['name']}</Link>
             </div>
           </div>

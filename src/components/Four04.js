@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { File } from 'react-feather';
 
 import Header from '../widgets/Header';
-import { Footer } from '../widgets/Footer';
 
 export default function Four04() {
   let history = useNavigate();
@@ -30,7 +29,6 @@ export default function Four04() {
           </div>
         </div>
       </div>
-      <Footer />
     </section>
   )
 }

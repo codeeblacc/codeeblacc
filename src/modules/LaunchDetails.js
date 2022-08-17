@@ -2,7 +2,6 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ZapOff } from 'react-feather';
 import Header from '../widgets/Header';
-import { Footer } from '../widgets/Footer';
 
 export default function LaunchDetails({detail}) {
   let history = useNavigate();
@@ -27,7 +26,6 @@ export default function LaunchDetails({detail}) {
           </div>
         </div>
       </div>
-      <Footer />
     </section>
   )
 }
