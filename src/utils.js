@@ -13,6 +13,7 @@ export function getDate(date) {
 export const studies = [
   {
     "id": "1",
+    "slug": "sleep-app",
     "name": "Sleep App",
     "description": "A leading player in the sleep tech space, Snooze is reimagining the importance of sleep in the 21st century.",
     "category": "Brand Design",
@@ -40,6 +41,7 @@ export const studies = [
   },
   {
     "id": "2",
+    "slug": "coffee-co",
     "name": "Coffee Co.",
     "description": "A leading player in the sleep tech space, Snooze is reimagining the importance of sleep in the 21st century.",
     "category": "Brand Design",
@@ -67,7 +69,8 @@ export const studies = [
   },
   {
     "id": "3",
-    "name": "Coffee Co.",
+    "slug": "bike-app",
+    "name": "Bike App.",
     "description": "A leading player in the sleep tech space, Snooze is reimagining the importance of sleep in the 21st century.",
     "category": "Brand Design",
     "year": "2021",
@@ -89,7 +92,6 @@ export const studies = [
       4: "cstud-01-05.jpg",
       5: "cstud-01-06.jpg",
       6: "cstud-01-07.jpg",
-      7: "cstud-01-08.jpg",
     }
   },
 ]

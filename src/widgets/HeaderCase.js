@@ -1,10 +1,11 @@
 import { React, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'react-feather';
 
 import { getDate } from '../utils.js';
 
-export default function Header() {
+export default function HeaderCase({caseName, caseSlug}) {
   var date = getDate(new Date());
   const header = useRef(0);
   const slick = useRef(0);
@@ -23,27 +24,25 @@ export default function Header() {
     } catch (error) { return; }
   }, [header]);
 
+  let history = useNavigate();
+
   return (
     <header ref={header}>
       <div className="container">
           <div className="row center-align">
             <div className="column large-2 medium-4 small-6">
-              <Link to="/#iLuGNmW" className="brand">Codee Blacc</Link>
+              <Link to="/" className="brand">Codee Blacc</Link>
             </div>
             <div className="column large-3 medium-3 hide-on-med-and-small">
-              <p><span className="slick" ref={slick}>Africa, Ghana<br /></span>Software Designer & Developer</p>
+              <p>{caseName}<br /><span className="slick" ref={slick}>Case Study</span></p>
             </div>
             <div className="column large-5 medium-4 hide-on-small-only">
               <ul>
-                <li><a href="mailto:codeeblacc@gmail.com">Email <ArrowUpRight color="white" /></a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://github.com/codeeblacc">Github <ArrowUpRight color="white" /></a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://instagram.com/codeeblacc">Instagram <ArrowUpRight color="white" /></a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://t.me/codeeblacc">Telegram <ArrowUpRight color="white" /></a></li>
-                <li><a target="_blank" rel="noreferrer" href="/resume.pdf" download>Resume.cv<ArrowUpRight color="white" /></a></li>
+                <li><Link to={`/launch/${caseSlug}`}>Launch Project <ArrowUpRight color="white" /></Link></li>
               </ul>
             </div>
             <div className="column large-2 medium-4 small-6 flex center-align justify-end">
-              <div className="nav-action-img" data-content={date}></div>
+              <div className="nav-action-click" onClick={() => history(-1)}></div>
             </div>
           </div>
       </div>

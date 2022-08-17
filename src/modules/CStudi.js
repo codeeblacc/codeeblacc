@@ -11,7 +11,7 @@ export default function CStudi({c}) {
               <p className="smoke-text">{c['year']}</p>
             </div>
             <div className="column large-9">
-              <Link to="#" className="casebox-link">{c['name']}</Link>
+              <Link to={`/cases/${c['slug']}`} className="casebox-link">{c['name']}</Link>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@ export default function CStudi({c}) {
           <p className="smoke-text">{c['category']}</p>
         </div>
       </div>
-      <Link to="#">
+      <Link to={`/cases/${c['slug']}`}>
         <div className="casebox-img" style={{ backgroundImage: `url("/images/${c['assets'][0]}")` }}></div>
       </Link>
     </div>
