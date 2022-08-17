@@ -3,7 +3,7 @@ from django.contrib import admin
 from appcore.models import Message
 
 class MessageAdmin(admin.ModelAdmin):
-    list_display        = ('legalname', 'email', 'timestamp', 'is_opened',)
+    list_display        = ('pk', 'legalname', 'email', 'timestamp', 'is_opened',)
     readonly_fields     = ('id', 'email',)
     search_fields       = ('legalname', 'email', 'message',)
 
