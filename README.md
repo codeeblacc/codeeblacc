@@ -1,6 +1,6 @@
 # Codee Blacc
 Systems engineer and Developer  
-10+ years of experience in digitalization and automations
+Having over 6+ years of experience in Software and Design
 
 [E-mail](mailto:codeeblacc@gmail.com) | [LinkedIn](https://www.linkedin.com/in/codeeblacc/) | [Facebook](https://www.facebook.com/codeeblacc/) | [Instagram](https://www.instagram.com/codeeblacc/) | [Twitter](https://twitter.com/codeeblacc) | [Telegram](https://www.youtube.com/channel/codeeblacc) | [GitHub](https://github.com/codeeblacc)
 
