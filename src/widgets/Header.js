@@ -29,13 +29,13 @@ export default function Header() {
               <Link to="/" className="brand">Codee Blacc</Link>
             </div>
             <div className="column large-3 medium-3 hide-on-med-and-small">
-              <Link to="/" className="brand"><span className="slick" ref={slick}>Africa, Nigeria<br /></span>Software Engineer & Developer</Link>
+              <Link to="#" className="brand"><span className="slick" ref={slick}>Africa, Nigeria<br /></span>Software Engineer & Developer</Link>
             </div>
             <div className="column large-5 medium-4 hide-on-small-only">
               <ul>
                 <li><a href="mailto:codeeblacc@gmail.com">Email <ArrowUpRight color="white" /></a></li>
                 <li><a target="_blank" rel="noreferrer" href="https://github.com/codeeblacc">Github <ArrowUpRight color="white" /></a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://instagram.com/mcblacc">Instagram <ArrowUpRight color="white" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://instagram.com/codeeblacc">Instagram <ArrowUpRight color="white" /></a></li>
                 <li><a target="_blank" rel="noreferrer" href="https://t.me/codeeblacc">Telegram <ArrowUpRight color="white" /></a></li>
                 <li><a target="_blank" rel="noreferrer" href="/resume.pdf" download>Resume.cv<ArrowUpRight color="white" /></a></li>
               </ul>

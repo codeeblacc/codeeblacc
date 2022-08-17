@@ -3,8 +3,8 @@ import React from 'react';
 import Header from '../widgets/Header';
 import Jumboo from '../widgets/Jumboo';
 import Skilet from '../widgets/Skilet';
-import Footer from '../widgets/Footer';
 import CStudi from '../modules/CStudi';
+import { Footer } from '../widgets/Footer';
 
 import { studies } from '../utils';
 

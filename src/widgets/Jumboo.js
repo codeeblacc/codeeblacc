@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Jumboo({header, span, subheader, content, alt}) {
   return (
-    <section id="jumbo" class={alt}>
+    <section id="jumbo" className={alt} key={Math.random()}>
       <div className="container">
         <div className="row">
           <div className="large-2"></div>

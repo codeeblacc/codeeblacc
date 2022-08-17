@@ -1,6 +1,6 @@
 :root {
   --base-color: #546BFF;
-  --smoke-color: rgba(245, 247, 255, .2);
+  --smoke-color: rgba(225, 225, 225, 0.1);
 }
 
 @keyframes percentageZero {
