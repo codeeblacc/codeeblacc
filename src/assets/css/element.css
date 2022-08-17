@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "../fonts/font.css";
 @import 'variables.css';
 
@@ -112,12 +113,12 @@ header {
   transition: .2s ease-in-out;
   align-items: center;
   background: #0A0A0A;
-  z-index: 1;
+  z-index: 10;
 }
 
 header.stick {
-  height: 50px;
-  /* box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1); */
+  height: 55px;
+  box-shadow: 0 0.04rem 0 0 rgba(255, 255, 255, 0.1);
 }
 
 header .slick {
@@ -137,7 +138,7 @@ header ul {
   display: flex;
 }
 
-header ul li a, footer a, footer .link {
+header ul li a, footer a, footer .link, .link {
   display: flex;
   align-items: center;
 }
@@ -146,7 +147,7 @@ header ul li {
   margin-right: 20px;
 }
 
-header ul li a svg, footer a svg, footer .link svg {
+header ul li a svg, footer a svg, footer .link svg, .link svg {
   width: 15px;
   transition: .2s ease-in-out;
 }
@@ -258,7 +259,7 @@ div.modal {
   display: none;
   align-items: center;
   justify-content: center;
-  z-index: 2;
+  z-index: 100;
   top: 0;
   left: 0;
   position: fixed;
@@ -269,14 +270,16 @@ div.modal-box {
   z-index: 2;
   border: 1px solid var(--smoke-color);
   border-radius: 20px;
-  background: #070708;
+  background: #0A0A0A;
 }
 
 div.modal .close {
   width: 12px;
   height: 12px;
   cursor: pointer;
-  position: relative;
+  position: fixed;
+  top: 20px;
+  right: 20px;
   background: white;
   border-radius: 100px;
 }

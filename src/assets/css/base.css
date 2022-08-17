@@ -42,11 +42,12 @@
 }
 
 .nav-action-img:hover, .nav-action-click:hover,
-.nav-action-img:focus, .nav-action-click:focus, {
+.nav-action-img:focus, .nav-action-click:focus {
   background-color: rgba(225, 225, 225, .5);
 }
 
-.nav-action-img:hover::before, .nav-action-img:focus::before {
+.nav-action-img:hover::before, .nav-action-img:focus::before,
+.nav-action-img:hover:before, .nav-action-img:focus:before {
   content: '@codee';
   position: absolute;
   background: var(--base-color);
@@ -147,7 +148,7 @@ section#jumbo {
   content: '';
   position: fixed;
   width: 10px;
-  left: 200px;
+  left: 400px;
   animation: percentageZero 5s linear infinite;
   height: 1px;
   background: var(--base-color);
@@ -270,6 +271,94 @@ section#jumbo {
 
 .nomar {
   margin: 10px 0;
+}
+
+.menu {
+  width: 30px;
+  position: relative;
+  transition: .2s ease-in-out;
+  z-index: 3;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.menu::before, .menu::after {
+  content: '';
+  position: absolute;
+  transition: .2s;
+  width: 30px;
+  height: 2px;
+  border-radius: 100px;
+  background: white;
+  left: 0;
+  margin: auto;
+  bottom: 11px;
+}
+
+.brand {
+  transition: .2s ease-in-out;
+}
+
+.menu::after {
+  top: 5px;
+  width: 20px;
+}
+
+.menu.open {
+  position: fixed;
+  top: 30px;
+  transition: .2s ease-in-out;
+}
+
+.menu.open::before, .menu.open::after {
+  transform: rotate(45deg);
+  width: 20px;
+  top: 0;
+  right: 0;
+}
+
+.menu.open::after {
+  transform: rotate(-45deg);
+}
+
+.sidemenu {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #0A0A0A;
+  left: -100%;
+  transition: .2s ease-in-out;
+  top: 0;
+}
+
+.sidemenu ul {
+  display: block;
+}
+
+.sidemenu ul li {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.sidemenu ul li a {
+  justify-content: space-between;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.sidemenu ul li a svg {
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  background: var(--smoke-color);
+}
+
+.sidemenu .footer {
+  position: absolute;
+  bottom: 10px;
+  border-top: 1px solid var(--smoke-color);
+  width: 90%;
+  padding: 10px 0;
 }
 
 @import "./responsive.css";

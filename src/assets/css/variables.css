@@ -6,10 +6,7 @@
 
 @keyframes percentageZero {
   0% { left: -200px; }
-}
-
-@keyframes percentageZeroAlt {
-  0% { left: -100% !important; }
+  50% { background: #444444; }
 }
 
 @keyframes spin {
