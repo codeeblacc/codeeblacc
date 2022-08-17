@@ -1,6 +1,8 @@
 @import "../fonts/font.css";
 @import 'variables.css';
 
+.no-radius { border-radius: 0 !important; }
+
 ::-webkit-scrollbar {
   width: 2px;
 }
@@ -19,6 +21,7 @@
 
 * {
   font-family: 'FontRegular';
+  outline: none;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -28,8 +31,8 @@
 body {
   color: white;
   background: #0A0A0A;
-  font-size: .8rem;
-  line-height: 1.2rem;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 a {
@@ -44,7 +47,6 @@ button, .button {
   cursor: pointer;
   transition: .2s ease-in-out;
   position: relative;
-  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,10 +63,11 @@ button.nostyle {
 
 .primary {
   background: var(--base-color);
+  color: black;
 }
 
 .secondary {
-  background: #546BFF10;
+  background: #9eff5910;
   color: var(--base-color);
 }
 
@@ -90,7 +93,7 @@ button.nostyle {
   position: absolute;
   width: 17px;
   height: 17px;
-  border: 2px solid white;
+  border: 2px solid black;
   border-right: 2px solid transparent;
   border-radius: 100px;
   animation: spin 800ms linear infinite;
@@ -114,7 +117,7 @@ header {
 
 header.stick {
   height: 50px;
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  /* box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1); */
 }
 
 header .slick {
@@ -134,17 +137,17 @@ header ul {
   display: flex;
 }
 
-header ul li a, footer a {
+header ul li a, footer a, footer .link {
   display: flex;
+  align-items: center;
 }
 
 header ul li {
   margin-right: 20px;
 }
 
-header ul li a svg, footer a svg{
+header ul li a svg, footer a svg, footer .link svg {
   width: 15px;
-  transform: translateY(-2px);
   transition: .2s ease-in-out;
 }
 
@@ -152,16 +155,21 @@ header ul li a:hover {
   color: grey;
 }
 
-header ul li a:hover svg {
-  transform: rotate(45deg) translate(-2px, -0.5px);
+footer a span {
+  transition: .2s ease-in-out;
+}
+
+header ul li a:hover svg, footer a:hover svg, footer a:hover span {
+  transform: rotate(45deg) translate(0, -0.5px);
 }
 
 footer {
   height: 80px;
+  display: flex;
 }
 
 .container {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
@@ -201,6 +209,18 @@ footer {
   -webkit-text-stroke: 1px;
 }
 
+.h2 {
+  font-size: 34px;
+  line-height: 40px;
+  -webkit-text-stroke: 1px;
+}
+
+.h3 {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
 .heading {
   font-size: 1.4rem;
   line-height: 2rem;
@@ -208,6 +228,19 @@ footer {
 
 .smoke-text {
   color: grey;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.large-text {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.link {
+  cursor: pointer;
 }
 
 .link.color {
@@ -221,7 +254,7 @@ footer {
 div.modal {
   width: 100%;
   height: 100%;
-  background: #0A0A0Aea;
+  background: #0A0A0Af0;
   display: none;
   align-items: center;
   justify-content: center;
@@ -232,10 +265,11 @@ div.modal {
 }
 
 div.modal-box {
-  width: 360px;
-  border-radius: 20px;
+  width: 400px;
+  z-index: 2;
   border: 1px solid var(--smoke-color);
-  background: #0A0A0A;
+  border-radius: 20px;
+  background: #070708;
 }
 
 div.modal .close {
@@ -265,6 +299,15 @@ div.modal .close::before {
   transform: rotate(-45deg);
 }
 
+div.modal-close {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
 div.modal-box-content {
   padding: 20px;
 }
@@ -277,21 +320,27 @@ div.modal-header-bar {
 }
 
 input, textarea, select {
-  width: calc(100% - 30px);
+  width: calc(100% - 26px);
   outline: none;
   color: white;
-  padding: 13px 15px;
+  padding: 12px 13px;
   transition: .2s ease-in-out;
-  background: #111;
+  background: #161617;
   border: none;
   -webkit-appearance: none;
   border-radius: 10px;
 }
 
-input:focus, textarea:focus {
-  box-shadow: 0 0 0 .05rem #333;
+input:focus, textarea:focus, select:focus {
+  box-shadow: 0 0 0 .05rem var(--base-color), 0 0 0 .3rem #9eff592c;
 }
 
 div.form-input {
   margin-bottom: 10px;
+}
+
+div.modal .title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
 }

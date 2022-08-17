@@ -1,10 +1,11 @@
 :root {
-  --base-color: #546BFF;
+  --base-color: #b2ff7b;
   --smoke-color: rgba(225, 225, 225, 0.1);
+  --animate-duration: 400ms;
 }
 
 @keyframes percentageZero {
-  0% { width: 0 }
+  0% { left: -200px; }
 }
 
 @keyframes spin {
