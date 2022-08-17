@@ -8,6 +8,10 @@
   0% { left: -200px; }
 }
 
+@keyframes percentageZeroAlt {
+  0% { left: -100% !important; }
+}
+
 @keyframes spin {
   100% { transform: rotate(360deg); }
 }

@@ -30,6 +30,10 @@
     display: none !important;
   }
 
+  div.casebox-img {
+    height: 400px;
+  }
+
   .medium-12 { width: calc((12/12) * 100%);}
   .medium-11 { width: calc((11/12) * 100%);}
   .medium-10 { width: calc((10/12) * 100%);}
@@ -56,6 +60,42 @@
 
   .hide-on-med-and-small {
     display: none;
+  }
+
+  .mtt {
+    margin-top: 100px;
+  }
+
+  .mts {
+    margin-top: 20px;
+  }
+
+  .mtb {
+    margin-bottom: 20px;
+  }
+
+  .mid-break {
+    width: 100% !important;
+  }
+
+  .mid-break::before {
+    left: 100% !important;
+    animation: percentageZeroAlt 5s linear infinite !important;
+  }
+
+  footer { height: 120px; }
+
+  .no-end {
+    justify-content: flex-start;
+  }
+
+  .alt {
+    height: inherit !important;
+    margin-bottom: 30px;
+  }
+
+  div.casebox-img {
+    height: 200px;
   }
 
   .small-12 { width: calc((12/12) * 100%);}

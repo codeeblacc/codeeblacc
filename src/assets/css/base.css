@@ -41,11 +41,12 @@
   transform: rotate(-45deg);
 }
 
-.nav-action-img:hover, .nav-action-click:hover {
+.nav-action-img:hover, .nav-action-click:hover,
+.nav-action-img:focus, .nav-action-click:focus, {
   background-color: rgba(225, 225, 225, .5);
 }
 
-.nav-action-img:hover::before {
+.nav-action-img:hover::before, .nav-action-img:focus::before {
   content: '@codee';
   position: absolute;
   background: var(--base-color);
@@ -74,7 +75,7 @@ section#jumbo {
 }
 
 .alt {
-  height: 400px !important;
+  height: 400px;
 }
 
 .casebox {

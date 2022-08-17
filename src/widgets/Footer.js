@@ -72,17 +72,17 @@ export class Footer extends React.Component {
         <div className="message animate__animated animate__zoomIn"></div>
         <div className="container">
           <div className="row">
-            <div className="large-2 flex center-align">
+            <div className="large-2 medium-12 small-12 flex center-align">
               <Link to="#">Design by me <span>👋</span></Link>
             </div>
-            <div className="large-2 flex center-align justify-space-between">
+            <div className="large-2 medium-4 small-12 flex mtb center-align justify-space-between">
               <div className="link" onClick={this.handleModalShow}>Let's work together <ArrowUpRight /></div>
             </div>
-            <div className="large-1"></div>
-            <div className="large-3 flex center-align">
+            <div className="large-1 hide-on-med-and-small"></div>
+            <div className="large-3 medium-3 small-6 flex center-align">
               <Link to="#" onClick={this.handleTop} className="link">Back to Top</Link>
             </div>
-            <div className="large-4 flex center-align justify-end">
+            <div className="large-4 medium-5 small-6 flex center-align justify-end">
               <p><span className="smoke-text">&copy; {new Date().getFullYear()}.</span> All rights reserved.</p>
             </div>
           </div>

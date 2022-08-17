@@ -5,13 +5,13 @@ export default function Skilet() {
     <section id="skilet">
       <div className="container">
         <div className="row">
-          <div className="large-2"></div>
-          <div className="large-1 flex justify-space-between">Main Skillset</div>
-          <div className="large-1"></div>
-          <div className="large-1"><div className="mid-break"></div></div>
-          <div className="large-7">
-            <div className="row">
-              <div className="large-6">
+          <div className="large-2 medium-12 small-12"></div>
+          <div className="large-1 medium-4 small-12 flex justify-space-between">Main Skillset</div>
+          <div className="large-1 hide-on-med-and-small"></div>
+          <div className="large-1 hide-on-med-and-small"><div className="mid-break"></div></div>
+          <div className="large-7 medium-8 small-12">
+            <div className="row mts">
+              <div className="large-6 small-12">
                 <div className="skill">
                   <p><span className="smoke-text">01</span> Full Stack Web Development </p>
                 </div>
@@ -37,10 +37,10 @@ export default function Skilet() {
                   <p><span className="smoke-text">08</span> Desktop GUI development <span className="smoke-text">+ others</span></p>
                 </div>
               </div>
-              <div className="large-3">
-                <div className="quals">Leadership + <span className="smoke-text">Inpendent</span></div>
+              <div className="large-3 small-12">
+                {/* <div className="quals">Leadership + <span className="smoke-text">Inpendent</span></div> */}
               </div>
-              <div className="large-3">
+              <div className="large-3 small-12">
                 <div className="abs">
                   <div className="skill large-12">
                     <div className="mid-break"></div>
