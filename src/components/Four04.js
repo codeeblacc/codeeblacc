@@ -1,9 +1,36 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { File } from 'react-feather';
 
-export class Four04 extends React.Component {
-  render() {
-    return (
-      <h1>Not Found</h1>
-    )
-  }
+import Header from '../widgets/Header';
+import { Footer } from '../widgets/Footer';
+
+export default function Four04() {
+  let history = useNavigate();
+
+  document.title = `Page Not Found — Codeeblacc`;
+
+  return (
+    <section id="404">
+      <Header />
+      <div className="not-found">
+        <div className="container">
+          <div className="center-text">
+            <File />
+            <br /><br />
+            <div className="h3">Page Not Found</div>
+              <p className="smoke-text">
+                The page you are looking for does not exist.<br />
+                Might have followed a broken url to this page.
+              </p>
+              <br />
+              <center>
+                <div className="nav-action-click" onClick={() => history(-1)}></div>
+              </center>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </section>
+  )
 }
