@@ -7,11 +7,11 @@ export default function Header() {
   const slick = useRef(0);
   const menu = useRef(0);
   const sidemenu = useRef(0);
-  const body = document.querySelector('body');
-
-  let open = false;
 
   useEffect(() => {
+    let open = false;
+    const body = document.querySelector('body');
+
     try {
       window.onscroll = () => {
         if (window.pageYOffset > 80) {

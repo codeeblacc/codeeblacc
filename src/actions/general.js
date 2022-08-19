@@ -23,6 +23,8 @@ export const closeLoader = () => {
   loader.classList.remove('animate__fadeIn');
   loader.classList.add('animate__fadeOut');
 
+  form.reset();
+
   setTimeout(() => {
     loader.removeAttribute('style');
     loader.classList.add('animate__fadeIn');

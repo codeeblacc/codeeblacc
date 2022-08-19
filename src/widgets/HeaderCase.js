@@ -3,10 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'react-feather';
 
-import { getDate } from '../utils.js';
 
 export default function HeaderCase({caseName, caseSlug}) {
-  var date = getDate(new Date());
   const header = useRef(0);
   const slick = useRef(0);
 

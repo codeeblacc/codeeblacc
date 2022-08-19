@@ -1,8 +1,12 @@
 @charset "UTF-8";
 @import "../fonts/font.css";
 @import 'variables.css';
+@import 'complex.css';
 
 .no-radius { border-radius: 0 !important; }
+
+.pageRoutes { display: none; }
+.pageRoutes.true { display: block; }
 
 ::-webkit-scrollbar {
   width: 2px;
@@ -43,15 +47,14 @@ a {
 
 button, .button {
   border: none;
-  padding: 8px 12px;
-  padding-top: 6px;
+  padding: 15px 15px;
   cursor: pointer;
   transition: .2s ease-in-out;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 100px;
+  border-radius: 10px;
   color: white;
   overflow: hidden;
 }
@@ -118,7 +121,7 @@ header {
 
 header.stick {
   height: 55px;
-  box-shadow: 0 0.04rem 0 0 rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0.035rem 0 0 rgba(255, 255, 255, 0.04);
 }
 
 header .slick {
@@ -149,7 +152,7 @@ header ul li {
 
 header ul li a svg, footer a svg, footer .link svg, .link svg {
   width: 15px;
-  transition: .2s ease-in-out;
+  transition: .1s ease-in-out;
 }
 
 header ul li a:hover {
@@ -274,27 +277,27 @@ div.modal-box {
 }
 
 div.modal .close {
-  width: 12px;
-  height: 12px;
-  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
   position: fixed;
-  top: 20px;
-  right: 20px;
-  background: white;
+  background-color: var(--smoke-color);
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 100px;
+  right: 20px;
+  top: 20px;
 }
 
 div.modal .close::before, div.modal .close::after {
   content: '';
   position: absolute;
-  width: 8px;
-  height: 2px;
-  background: black;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  margin: auto;
+  width: 12px;
+  height: 1px;
+  background: white;
   transform: rotate(45deg);
 }
 
@@ -323,19 +326,33 @@ div.modal-header-bar {
 }
 
 input, textarea, select {
-  width: calc(100% - 26px);
+  width: calc(100% - 30px);
   outline: none;
   color: white;
-  padding: 12px 13px;
+  padding: 17px 15px;
   transition: .2s ease-in-out;
-  background: #161617;
+  background: var(--smoke-color);
   border: none;
+  font-size: 13px;
   -webkit-appearance: none;
   border-radius: 10px;
 }
 
+input[type="text"] {
+  text-transform: capitalize;
+}
+
+textarea {
+  resize: none;
+  white-space: nowrap;
+}
+
 input:focus, textarea:focus, select:focus {
-  box-shadow: 0 0 0 .05rem var(--base-color), 0 0 0 .3rem #9eff592c;
+  background: var(--smoke-bg);
+}
+
+::placeholder {
+  color: grey;
 }
 
 div.form-input {
@@ -344,6 +361,7 @@ div.form-input {
 
 div.modal .title {
   font-size: 20px;
-  font-weight: 600;
   line-height: 30px;
 }
+
+@import "base.css";

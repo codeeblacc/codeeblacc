@@ -17,7 +17,7 @@ export default function LaunchDetails({detail}) {
             <div className="h3">Project Closed</div>
               <p className="smoke-text">
                 This project has been shutdown by the owner<br />
-                Project is no longer online. <span>Error Code: 5023602</span>
+                Project is no longer online. Error Code — <span className="white-text">5023602</span>
               </p>
               <br />
               <center>

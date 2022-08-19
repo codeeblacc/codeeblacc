@@ -73,17 +73,17 @@ export class Footer extends React.Component {
         <div className="container">
           <div className="row">
             <div className="large-2 medium-12 small-12 flex center-align">
-              <Link to="#">Design by me <span>👋</span></Link>
+              <Link to="#" onClick={this.handleModalShow}>Design by me <span>👋</span></Link>
             </div>
             <div className="large-2 medium-4 small-12 flex mtb center-align justify-space-between">
               <div className="link" onClick={this.handleModalShow}>Let's work together <ArrowUpRight /></div>
             </div>
             <div className="large-1 hide-on-med-and-small"></div>
-            <div className="large-3 medium-3 small-6 flex center-align">
-              <Link to="#" onClick={this.handleTop} className="link">Back to Top</Link>
+            <div className="large-3 medium-3 small-3 flex center-align">
+              <Link to="#" onClick={this.handleTop} className="link">Goto Top</Link>
             </div>
-            <div className="large-4 medium-5 small-6 flex center-align justify-end">
-              <p><span className="smoke-text">&copy; {new Date().getFullYear()}.</span> All rights reserved.</p>
+            <div className="large-4 medium-5 small-9 flex center-align justify-end">
+              <p><span className="smoke-text">Copyright &copy;.</span> +blacc {new Date().getFullYear()}.</p>
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ export class Footer extends React.Component {
               <div className="modal-header-bar"></div>
               <form method="POST" onSubmit={this.handleSubmit}>
                 <div className="form-input">
-                  <input type="text" required minLength="5" autoComplete="off" name="legalname" onChange={this.handleChange} placeholder="Legal Full Name" />
+                  <input type="text" required minLength="5" autoComplete="off" name="legalname" onChange={this.handleChange} placeholder="Enter Full Name" />
                 </div>
                 <div className="form-input">
                   <input type="email" required autoComplete="off" name="email" onChange={this.handleChange} placeholder="Email Address" />
@@ -110,7 +110,7 @@ export class Footer extends React.Component {
                 <p className="smoke-text">You can also get in touch with me using my social handles at the top header.</p>
                 <br />
                 <div className="flex center-align justify-space-between">
-                  <button type="submit" className="button primary">Drop</button>
+                  <button type="submit" className="button primary">Send message</button>
                   <p>{ this.state.date }</p>
                 </div>
               </form>

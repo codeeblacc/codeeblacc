@@ -8,19 +8,36 @@ import CaseStudy from './components/CaseStudy';
 
 import 'animate.css';
 import './assets/css/element.css';
-import './assets/css/base.css';
 
 export class App extends React.Component {
+  componentDidMount() {
+    const loader = document.querySelector('.preloader');
+    const pageRoutes = document.querySelector('.pageRoutes');
+
+    setTimeout(() => {
+      loader.classList.add('done');
+      pageRoutes.classList.add('true');
+    }, 8000);
+    setTimeout(() => {
+      loader.classList.add('hide');
+    }, 9000);
+  }
   render() {
     return (
       <BrowserRouter>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/launch/:slug" element={<Launch />} />
-          <Route exact path="/cases/:slug" element={<CaseStudy />} />
-
-          <Route path="*" element={<Four04 />} />
-        </Routes>
+        <div className="preloader">
+          <div className="large-text">
+            <div className="shine">@codeeblacc</div>
+          </div>
+        </div>
+        <div className="pageRoutes">
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/launch/:slug" element={<Launch />} />
+            <Route exact path="/cases/:slug" element={<CaseStudy />} />
+            <Route path="*" element={<Four04 />} />
+          </Routes>
+        </div>
       </BrowserRouter>
     );
   }

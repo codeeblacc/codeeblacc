@@ -10,6 +10,10 @@ export default function Launch() {
   const { slug } = useParams();
   const cstud = studies.find(c => c.slug === slug)
 
+  if (cstud) {
+    document.title = `${cstud['name']} — Launch`
+  }
+
   return (
     <section id="Launch">
       { cstud ? (
