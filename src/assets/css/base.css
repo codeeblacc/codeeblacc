@@ -71,7 +71,7 @@
 }
 
 section#jumbo {
-  height: 510px;
+  height: 490px;
   display: flex;
   align-items: flex-end;
 }
@@ -254,13 +254,14 @@ section#jumbo {
   margin-top: 140px;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   border-radius: 10px;
 }
 
 .description-img-alt {
   height: 600px;
   background-color: #d2d2d2;
+  background-size: cover;
+  background-position: center;
   margin: 10px 6px;
   border-radius: 10px;
 }
