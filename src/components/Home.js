@@ -26,7 +26,7 @@ export class Home extends React.Component {
         <div className="container">
           {castList}
         </div>
-        <Jumboo header="Experience" alt="alt" span="and" subheader="Tech Stack" content="Having over 6+ years of experience in Software + Design, I have been able to grow diverse set of skills not limited to software and design." />
+        <Jumboo header="Experience" alt="alt" span="and" subheader="Tech Stack" content="Having over 5+ years of experience in Software + Design, I have been able to grow diverse set of skills not limited to software and design." />
         <Skilet />
         <Footer />
       </section>
