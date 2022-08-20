@@ -15,8 +15,10 @@ export class App extends React.Component {
     const pageRoutes = document.querySelector('.pageRoutes');
 
     setTimeout(() => {
-      loader.classList.add('done');
       pageRoutes.classList.add('true');
+    }, 7500);
+    setTimeout(() => {
+      loader.classList.add('done');
     }, 8000);
     setTimeout(() => {
       loader.classList.add('hide');
