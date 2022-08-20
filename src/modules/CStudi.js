@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { Fade } from 'react-reveal';
+
 export default function CStudi({c}) {
   return (
     <div className="casebox" key={c['id']}>
@@ -15,16 +17,18 @@ export default function CStudi({c}) {
             </div>
           </div>
         </div>
-        <div className="column large-3 medium-6 small-12 mts">
+        <div className="column large-5 medium-6 small-12 mts">
           <p>{c['description']}</p>
         </div>
-        <div className="column large-7 medium-2 small-12 mts flex justify-end no-end">
+        <div className="column large-5 medium-2 small-12 mts flex justify-end no-end">
           <p className="smoke-text">{c['category']}</p>
         </div>
       </div>
-      <Link to={`/cases/${c['slug']}`}>
-        <div className="casebox-img" style={{ backgroundImage: `url("/images/${c['assets'][0]}")` }}></div>
-      </Link>
+      <Fade bottom>
+        <Link to={`/cases/${c['slug']}`}>
+          <div className="casebox-img" style={{ backgroundImage: `url(${c['assets'][0]})` }}></div>
+        </Link>
+      </Fade>
     </div>
   );
 }
