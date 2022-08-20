@@ -29,7 +29,7 @@ export const studies = [
       },
     },
     "assets" : {
-      0: "cstud-01-01.jpg",
+      0: "/images/cstud-01-01.jpg",
       1: "cstud-01-02.jpg",
       2: "cstud-01-03.jpg",
       3: "cstud-01-04.jpg",
@@ -57,7 +57,7 @@ export const studies = [
       },
     },
     "assets" : {
-      0: "cstud-01-01.jpg",
+      0: "/images/cstud-01-01.jpg",
       1: "cstud-01-02.jpg",
       2: "cstud-01-03.jpg",
       3: "cstud-01-04.jpg",
@@ -85,7 +85,7 @@ export const studies = [
       },
     },
     "assets" : {
-      0: "cstud-01-01.jpg",
+      0: "/images/cstud-01-01.jpg",
       1: "cstud-01-02.jpg",
       2: "cstud-01-03.jpg",
       3: "cstud-01-04.jpg",
