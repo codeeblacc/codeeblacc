@@ -29,16 +29,16 @@ export default function Details({detail}) {
               </div>
             </div>
           </div>
-          <div className="column large-3 medium-6 small-12 mts">
+          <div className="column large-5 medium-6 small-12 mts">
             <p>{detail.description}</p>
           </div>
-          <div className="column large-7 medium-2 small-12 mts flex justify-end no-end">
+          <div className="column large-5 medium-2 small-12 mts flex justify-end no-end">
             <p className="smoke-text">{detail.category}</p>
           </div>
         </div>
       </div>
       <div className="detail-break"></div>
-      <div className="casebox-img no-radius" style={{ backgroundImage: `url("/images/${detail.assets[0]}")` }}></div>
+      <div className="casebox-img no-radius" style={{ backgroundImage: `url(${detail.assets[0]})` }}></div>
       <div className="container">
         <div className="description-box">
           <div className="large-3 medium-6 small-12">
@@ -46,7 +46,7 @@ export default function Details({detail}) {
           </div>
           <br />
           <p className="large-text">{detail.content[0].description}</p>
-          <div className="description-img" style={{ backgroundImage: `url("/images/${detail.assets[1]}")` }}></div>
+          <div className="description-img" style={{ backgroundImage: `url(${detail.assets[1]})` }}></div>
         </div>
         <div className="description-box">
           <div className="row">
@@ -61,7 +61,7 @@ export default function Details({detail}) {
           <div className="description-breaker"></div>
           <div className="row">
             <div className="large-6 small-12">
-              <div className="description-img-alt" id="a" style={{ backgroundImage: `url("/images/${detail.assets[2]}")` }}></div>
+              <div className="description-img-alt" id="a" style={{ backgroundImage: `url(${detail.assets[2]})` }}></div>
             </div>
             <div className="large-6 small-12">
               <div className="description-img-alt" id="b" style={{ backgroundImage: `url("/images/${detail.assets[3]}")` }}></div>
