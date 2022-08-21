@@ -64,16 +64,18 @@ export default function Details({detail}) {
               <div className="description-img-alt" id="a" style={{ backgroundImage: `url(${detail.assets[2]})` }}></div>
             </div>
             <div className="large-6 small-12">
-              <div className="description-img-alt" id="b" style={{ backgroundImage: `url("/images/${detail.assets[3]}")` }}></div>
+              <div className="description-img-alt" id="b" style={{ backgroundImage: `url("${detail.assets[3]}")` }}></div>
+            </div>
+            {/*
+            <div className="large-6 small-12">
+              <div className="description-img-alt" id="a" style={{ backgroundImage: `url("${detail.assets[4]}")` }}></div>
             </div>
             <div className="large-6 small-12">
-              <div className="description-img-alt" id="a" style={{ backgroundImage: `url("/images/${detail.assets[4]}")` }}></div>
+              <div className="description-img-alt" id="b" style={{ backgroundImage: `url("${detail.assets[5]}")` }}></div>
             </div>
-            <div className="large-6 small-12">
-              <div className="description-img-alt" id="b" style={{ backgroundImage: `url("/images/${detail.assets[5]}")` }}></div>
-            </div>
+            */}
           </div>
-          <div className="description-img nomar" style={{ backgroundImage: `url("/images/${detail.assets[6]}")` }}></div>
+          <div className="description-img nomar" style={{ backgroundImage: `url("${detail.assets[6]}")` }}></div>
         </div>
       </div>
       <Footer />

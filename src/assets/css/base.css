@@ -250,9 +250,10 @@ section#jumbo {
 
 .description-img {
   height: 600px;
-  background-color: #d2d2d2;
+  background-color: #100D0D;
   margin-top: 140px;
-  background-size: cover;
+  background-size: fill;
+  background-repeat: no-repeat;
   background-position: center;
   border-radius: 10px;
 }

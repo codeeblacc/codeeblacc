@@ -4,7 +4,7 @@
 }
 
 .hide-on-med-and-small {
-  display: block !important;
+  display: block;
 }
 
 .hide-on-med-and-large  {
@@ -84,7 +84,7 @@
   }
 
   .hide-on-med-and-small {
-    display: none;
+    display: none !important;
   }
 
   .hide-on-med-and-large {

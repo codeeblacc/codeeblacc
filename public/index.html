@@ -30,5 +30,22 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyCVEGesTR6PXMUkqpLUhTG3Ha_roYL3VD4",
+        authDomain: "codeeblacc.firebaseapp.com",
+        projectId: "codeeblacc",
+        storageBucket: "codeeblacc.appspot.com",
+        messagingSenderId: "407618957511",
+        appId: "1:407618957511:web:7093b76f058a49b984cee2",
+        measurementId: "G-CZWCEVH689"
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>

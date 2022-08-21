@@ -101,8 +101,9 @@ export default function Skilet() {
                   </div>
                 </div>
               </div>
+              <div className="hide-on-med-and-small"><br /><br /><br /></div>
               <p>
-                <br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br />
                 With over 5 years of experience developing software, I have developed a deep and strong understanding of software development principles such as SOLID, YAGNI, KISS, and the use of Architecture to manage and reduce system complexity.
               </p>
               <br />
