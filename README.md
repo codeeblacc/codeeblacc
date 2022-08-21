@@ -23,5 +23,5 @@ Having over 5+ years of experience in Software and Design
 * Version Control System
 <br>
 
-[![Codeeblacc's github activity graph](https://activity-graph.herokuapp.com/graph?username=codeeblacc&theme=xcode)]
+[![Codeeblacc's github activity graph](https://activity-graph.herokuapp.com/graph?username=codeeblacc&theme=xcode)]()
 <br>
