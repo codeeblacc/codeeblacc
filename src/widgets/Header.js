@@ -56,7 +56,6 @@ export default function Header() {
                 <li><a target="_blank" rel="noreferrer" href="https://github.com/codeeblacc">Github <ArrowUpRight color="white" /></a></li>
                 <li><a target="_blank" rel="noreferrer" href="https://instagram.com/codeeblacc">Instagram <ArrowUpRight color="white" /></a></li>
                 <li><a target="_blank" rel="noreferrer" href="https://t.me/codeeblacc">Telegram <ArrowUpRight color="white" /></a></li>
-                <li><a target="_blank" rel="noreferrer" href="/resume.pdf" download>Resume.cv<ArrowUpRight color="white" /></a></li>
               </ul>
             </div>
             <div className="column large-2 medium-4 small-6 flex center-align justify-end">
@@ -76,7 +75,6 @@ export default function Header() {
             <li><a target="_blank" rel="noreferrer" href="https://github.com/codeeblacc">Github</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://instagram.com/codeeblacc">Instagram</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://t.me/codeeblacc">Telegram</a></li>
-            <li><a target="_blank" rel="noreferrer" href="/resume.pdf" download>Resume.cv</a></li>
           </ul>
           <div className="footer flex justify-space-between">
             <p><span className="smoke-text">&copy; { new Date().getFullYear() }</span> codeeblacc. All rights reserved.</p>
