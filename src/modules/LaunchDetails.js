@@ -1,14 +1,14 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ZapOff } from 'react-feather';
-import Header from '../widgets/Header';
+import HeaderLaunch from '../widgets/HeaderLaunch';
 
 export default function LaunchDetails({detail}) {
   let history = useNavigate();
 
   return (
     <section id="Launch">
-      <Header />
+      <HeaderLaunch caseName={detail.name} caseSlug={detail.slug} />
       <div className="not-found">
         <div className="container">
           <div className="center-text">

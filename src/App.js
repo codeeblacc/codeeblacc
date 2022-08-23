@@ -54,7 +54,7 @@ export class App extends React.Component {
           </div>
           <div className="large-text">
             <div className="shine">@codeeblacc</div>
-            <p> Loading...Please wait </p>
+            <p>lease wait</p>
           </div>
         </div>
         <div className="pageRoutes">

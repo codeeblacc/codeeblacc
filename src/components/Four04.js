@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { File } from 'react-feather';
 
-import Header from '../widgets/Header';
+import Header404 from '../widgets/Header404';
 
 export default function Four04() {
   let history = useNavigate();
@@ -11,7 +11,7 @@ export default function Four04() {
 
   return (
     <section id="404">
-      <Header />
+      <Header404 />
       <div className="not-found">
         <div className="container">
           <div className="center-text">
