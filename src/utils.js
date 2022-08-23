@@ -10,6 +10,20 @@ export function getDate(date) {
   return `${strHour.length > 1 ? hour : `0${hour}`} : ${strMins.length > 1 ? mins : `0${mins}`}`;
 }
 
+export const cacheImages = async (srcArray) => {
+  const promises = await srcArray.map((src) => {
+    return new Promise(function (resolve, reject) {
+      const img = new Image();
+
+      img.src = src;
+      img.onload = resolve;
+      img.onerror = reject;
+    });
+  });
+
+  await Promise.all(promises);
+}
+
 export const studies = [
   {
     "id": "1",
@@ -29,11 +43,11 @@ export const studies = [
       },
     },
     "assets" : {
-      0: "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/beff18144613521.628f5bdea0de1.png",
-      1: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d6b1c2144613521.62920fff73310.png",
-      2: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/95ce5c144613521.6291309ab451b.png",
-      3: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/74fd43144613521.628f5797dcd98.png",
-      4: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/105087144613521.62921700231c2.png",
+      0: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-01.png",
+      1: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-02.png",
+      2: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-03.png",
+      3: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-04.png",
+      4: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-05.png",
     }
   }
 ]
