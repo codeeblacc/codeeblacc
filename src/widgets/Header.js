@@ -54,7 +54,7 @@ export default function Header() {
               <ul>
                 <li><a href="mailto:codeeblacc@gmail.com">Email <ArrowUpRight color="white" /></a></li>
                 <li><a target="_blank" rel="noreferrer" href="https://github.com/codeeblacc">Github <ArrowUpRight color="white" /></a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://instagram.com/codeeblacc">Instagram <ArrowUpRight color="white" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://instagram.com/mcblacc">Instagram <ArrowUpRight color="white" /></a></li>
                 <li><a target="_blank" rel="noreferrer" href="https://t.me/codeeblacc">Telegram <ArrowUpRight color="white" /></a></li>
               </ul>
             </div>
