@@ -73,7 +73,7 @@ export default function Header() {
           <ul>
             <li><a href="mailto:codeeblacc@gmail.com">Email</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://github.com/codeeblacc">Github</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://instagram.com/codeeblacc">Instagram</a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://instagram.com/mcblacc">Instagram</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://t.me/codeeblacc">Telegram</a></li>
           </ul>
           <div className="footer flex justify-space-between">
