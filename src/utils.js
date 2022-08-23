@@ -39,6 +39,31 @@ export const studies = [
       },
       1: {
         "title": "Production technology in detail",
+        "description": "We proceeded with the design and used brands colors, making it utilitarian, sleek, and elegant. In terms of development, we made the design using Adobe Illustrator and After Effects which is the primary software for 3D design today.",
+      },
+    },
+    "assets" : {
+      0: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-01.png",
+      1: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-02.png",
+      2: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-03.png",
+      3: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-04.png",
+      4: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-05.png",
+    }
+  },
+  {
+    "id": "2",
+    "slug": "oshify",
+    "name": "OshiFy",
+    "description": "This is a visual identity to act as a foundation for future asset development and give Oshify the solid, hazard inspired aesthetic needed.",
+    "category": "Brand Visual Identity",
+    "year": "2021",
+    "content": {
+      0: {
+        "title": "Challenge and Role",
+        "description": "Oshify is a SAAS Tech company developing simple safety software for high-hazard industries. My role in this project was to create different variations of the base design. I took this as a challange to explore 3D computer software and thier capacity to create realistic materials."
+      },
+      1: {
+        "title": "Production technology in detail",
         "description": "We proceeded with the app design used brands colors, making it utilitarian, sleek, and elegant. In terms of development, we made the design using Adobe Illustrator and After Effects which is the primary software for 3D design today.",
       },
     },
