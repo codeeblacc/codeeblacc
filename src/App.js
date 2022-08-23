@@ -9,27 +9,52 @@ import CaseStudy from './components/CaseStudy';
 import 'animate.css';
 import './assets/css/element.css';
 
+import { cacheImages } from './utils';
+
 export class App extends React.Component {
-  componentDidMount() {
+  loadImages = async () => {
     const loader = document.querySelector('.preloader');
     const pageRoutes = document.querySelector('.pageRoutes');
 
+    const imagesList = [
+      "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-01.png",
+      "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-02.png",
+      "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-03.png",
+      "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-04.png",
+      "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-05.png",
+    ]
+
+    await cacheImages(imagesList);
+
     setTimeout(() => {
       pageRoutes.classList.add('true');
-    }, 7500);
+    }, 2500);
     setTimeout(() => {
       loader.classList.add('done');
-    }, 8000);
+    }, 3000);
     setTimeout(() => {
       loader.classList.add('hide');
-    }, 9000);
+    }, 4000);
   }
+
+  componentDidMount() {
+    this.loadImages();
+  }
+
   render() {
     return (
       <BrowserRouter>
         <div className="preloader">
+          <div className="images">
+            <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-01.png" alt="notVisible" />
+            <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-02.png" alt="notVisible" />
+            <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-03.png" alt="notVisible" />
+            <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-04.png" alt="notVisible" />
+            <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-05.png" alt="notVisible" />
+          </div>
           <div className="large-text">
             <div className="shine">@codeeblacc</div>
+            <p> Loading...Please wait </p>
           </div>
         </div>
         <div className="pageRoutes">
