@@ -384,6 +384,16 @@ section#jumbo {
   justify-content: center;
 }
 
+.preloader img {
+  width: 100%;
+}
+
+.preloader .images {
+  position: absolute;
+  visibility: hidden;
+  left: -100%;
+}
+
 .preloader .large-text {
   animation: fadeIn 8s linear;
 }
@@ -394,6 +404,14 @@ section#jumbo {
 
 .preloader.hide {
   display: none;
+}
+
+.preloader .large-text {
+  text-align: center;
+}
+
+.preloader .large-text p {
+  font-size: 12px;
 }
 
 @import "./responsive.css";
