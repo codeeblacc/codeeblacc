@@ -122,7 +122,7 @@ header {
 header.stick {
   height: 55px;
   background: #0A0A0A;
-  box-shadow: 0 0.035rem 0 0 rgba(255, 255, 255, 0.04);
+  box-shadow: 0 0.04rem 0 0 rgba(255, 255, 255, 0.07);
 }
 
 header .slick {

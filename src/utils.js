@@ -52,11 +52,11 @@ export const studies = [
   },
   {
     "id": "2",
-    "slug": "oshify",
-    "name": "OshiFy",
+    "slug": "orange",
+    "name": "Orange",
     "description": "This is a visual identity to act as a foundation for future asset development and give Oshify the solid, hazard inspired aesthetic needed.",
-    "category": "Brand Visual Identity",
-    "year": "2021",
+    "category": "App Branding",
+    "year": "2022",
     "content": {
       0: {
         "title": "Challenge and Role",
@@ -68,7 +68,7 @@ export const studies = [
       },
     },
     "assets" : {
-      0: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-01.png",
+      0: "/images/cstud-02-01.png",
       1: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-02.png",
       2: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-03.png",
       3: "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-04.png",

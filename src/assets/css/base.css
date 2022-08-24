@@ -77,7 +77,7 @@ section#jumbo {
 }
 
 .alt {
-  height: 700px;
+  height: 600px !important;
 }
 
 .casebox {
