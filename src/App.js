@@ -22,6 +22,11 @@ export class App extends React.Component {
       "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-03.png",
       "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-04.png",
       "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-05.png",
+      "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-01.png",
+      "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-02.png",
+      "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-03.png",
+      "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-04.png",
+      "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-05.gif",
     ]
 
     await cacheImages(imagesList);
@@ -51,10 +56,15 @@ export class App extends React.Component {
             <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-03.png" alt="notVisible" />
             <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-04.png" alt="notVisible" />
             <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-01-05.png" alt="notVisible" />
+            <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-01.png" alt="notVisible" />
+            <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-02.png" alt="notVisible" />
+            <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-03.png" alt="notVisible" />
+            <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-04.png" alt="notVisible" />
+            <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-05.gif" alt="notVisible" />
           </div>
           <div className="large-text">
-            <div className="shine">@codeeblacc</div>
-            <p>lease wait</p>
+            <div className="shine">@codeeblacc&trade;</div>
+            <p>loading assets <span></span></p>
           </div>
         </div>
         <div className="pageRoutes">

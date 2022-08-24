@@ -28,6 +28,16 @@
   border-radius: 100px;
 }
 
+.btnsec {
+  position: relative;
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  border-radius: 100px;
+  padding: 0 20px;
+  background: var(--smoke-color);
+}
+
 .nav-action-click::before, .nav-action-click::after {
   content: '';
   position: absolute;
@@ -252,7 +262,7 @@ section#jumbo {
   height: 600px;
   background-color: #100D0D;
   margin-top: 140px;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 10px;
@@ -412,6 +422,21 @@ section#jumbo {
 
 .preloader .large-text p {
   font-size: 12px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.preloader .large-text p span {
+  width: 10px;
+  height: 10px;
+  animation: spin 400ms linear infinite;
+  border: 1px solid white;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 100px;
+  position: relative;
 }
 
 @import "./responsive.css";
