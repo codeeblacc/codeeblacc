@@ -37,7 +37,7 @@ export const studies = [
     "content": {
       0: {
         "title": "Challenge and Role",
-        "description": "Oshify is a SAAS Tech company developing simple safety software for high-hazard industries. My role in this project was to create different variations of the base design. I took this as a challange to explore 3D computer software and thier capacity to create realistic materials."
+        "description": "Oshify is a SAAS Tech company developing simple safety software for high-hazard industries. My role in this project was to create different variations of the base design. I took this as a challange to explore 3D computer software and their capacity to create realistic materials."
       },
       1: {
         "title": "Production technology in detail",
