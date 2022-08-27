@@ -429,14 +429,34 @@ section#jumbo {
 }
 
 .preloader .large-text p span {
-  width: 10px;
-  height: 10px;
-  animation: spin 400ms linear infinite;
-  border: 1px solid white;
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
+  width: 4px;
+  height: 4px;
+  animation: spin 800ms linear infinite;
+  border: 3px solid white;
+  border-left: 3px solid transparent;
   border-radius: 100px;
   position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.preloader .large-text p span::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border: 3px solid #b2ff7b;
+  background: red;
+  animation: spin 100ms linear infinite;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 100px;
 }
 
 @import "./responsive.css";
