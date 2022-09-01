@@ -2,7 +2,7 @@ hello 👋
 I'm a Systems engineer and Developer  
 Having over 5+ years of experience in Software and Design
 
-[E-mail](mailto:codeeblacc@gmail.com) — [LinkedIn](https://www.linkedin.com/in/codee-blacc-616911248/) — [Instagram](https://www.instagram.com/mcblacc/) — [Twitter](https://twitter.com/codeeblacc) — [Telegram](https://t.me/codeeblacc) — [GitHub](https://github.com/codeeblacc)
+[E-mail](mailto:codeeblacc@gmail.com) — [LinkedIn](https://www.linkedin.com/in/codee-blacc-616911248/) — [Instagram](https://www.instagram.com/mcblacc/) — [Telegram](https://t.me/codeeblacc) — [GitHub](https://github.com/codeeblacc)
 
 [See website for more information](https://codeeblacc.firebaseapp.com)
 
