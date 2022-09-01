@@ -1,8 +1,7 @@
-# Codee Blacc
 Systems engineer and Developer  
 Having over 5+ years of experience in Software and Design
 
-[E-mail](mailto:codeeblacc@gmail.com) | [LinkedIn](https://www.linkedin.com/in/codeeblacc/) | [Facebook](https://www.facebook.com/codeeblacc/) | [Instagram](https://www.instagram.com/codeeblacc/) | [Twitter](https://twitter.com/codeeblacc) | [Telegram](https://www.youtube.com/channel/codeeblacc) | [GitHub](https://github.com/codeeblacc)
+[E-mail](mailto:codeeblacc@gmail.com) — [LinkedIn](https://www.linkedin.com/in/codeeblacc/) — [Facebook](https://www.facebook.com/codeeblacc/) — [Instagram](https://www.instagram.com/mcblacc/) — [Twitter](https://twitter.com/codeeblacc) — [Telegram](https://t.me/codeeblacc) — [GitHub](https://github.com/codeeblacc)
 
 [See website for more information](https://codeeblacc.firebaseapp.com)
 
@@ -23,5 +22,7 @@ Having over 5+ years of experience in Software and Design
 * Version Control System
 <br>
 
-[![Codeeblacc's github activity graph](https://activity-graph.herokuapp.com/graph?username=codeeblacc&theme=xcode)]()
+#[![Codeeblacc's github activity graph](https://activity-graph.herokuapp.com/graph?username=codeeblacc&theme=xcode)]()
 <br>
+
+For me, code is a means to and end and the most important part of any team/project/company is its people. I'm dedicated to providing inclusive experiences at every level of creativity.
