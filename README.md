@@ -7,11 +7,11 @@ Having over 5+ years of experience in Software and Design
 [See website for more information](https://codeeblacc.firebaseapp.com)
 
 ## Skills
-<!-- <div align=right>
+<div align=right>
     <a href="https://github.com/anuraghazra/github-readme-stats">
       <img width=325 align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codeeblacc&langs_count=10&theme=radical&layout=compact&custom_title=Used Languages on Github" />
     </a>
-</div> -->
+</div>
 
 * Full Stack Web Development
 * DevOps Engineering
@@ -23,7 +23,7 @@ Having over 5+ years of experience in Software and Design
 * Version Control System
 <br>
 
-# [![Codeeblacc's github activity graph](https://activity-graph.herokuapp.com/graph?username=codeeblacc&theme=xcode)]()
+<!-- [![Codeeblacc's github activity graph](https://activity-graph.herokuapp.com/graph?username=codeeblacc&theme=xcode)]() -->
 <br>
 
 For me, code is a means to and end and the most important part of any team/project/company is its people. I'm dedicated to providing exquisite experiences at every level of creativity. #Speialist at getting the job done
