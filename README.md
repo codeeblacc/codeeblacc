@@ -17,8 +17,5 @@ Having over 5+ years of experience in Software and Design
 * Scripting + Bug Fixing
 * Version Control System
 <br>
-
 <!-- [![Codeeblacc's github activity graph](https://activity-graph.herokuapp.com/graph?username=codeeblacc&theme=xcode)]() -->
-<br>
-
-For me, code is a means to and end and the most important part of any team/project/company is its people. I'm dedicated to providing exquisite experiences at every level of creativity. #Speialist at getting the job done
+For me, code is a means to and end and the most important part of any team/project/company is its people. I'm dedicated to delivering exquisite experiences at every level of creativity. Also a `specialist' at getting the job done
