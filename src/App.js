@@ -45,7 +45,7 @@ export class App extends React.Component {
   componentDidMount() {
     this.loadImages();
   }
-
+  
   render() {
     return (
       <BrowserRouter>
@@ -63,8 +63,8 @@ export class App extends React.Component {
             <img src="https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-05.gif" alt="notVisible" />
           </div>
           <div className="large-text">
-            <div className="shine">@codeeblacc&trade;</div>
-            <p>loading assets <span></span></p>
+            <div className="shine">codeeblacc&trade;</div>
+            <p><span></span></p>
           </div>
         </div>
         <div className="pageRoutes">

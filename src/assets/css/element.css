@@ -121,15 +121,9 @@ header {
 
 header.stick {
   height: 55px;
-  background: #0A0A0A;
-}
-
-@supports ((-webkit-backdrop-filter:none) or (backdrop-filter:none)) {
-  header.stick {
-    background: #0A0A0Acc;
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-  }
+  background: #0A0A0Acc;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 header .slick {

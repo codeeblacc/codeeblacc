@@ -3,6 +3,11 @@
  "name": "cdblacc",
  "icons": [
   {
+   "src": "favicon.ico",
+   "sizes": "16x16",
+   "type": "images/x-icon"
+  },
+  {
    "src": "android-icon-36x36.png",
    "sizes": "36x36",
    "type": "image/png"
@@ -34,7 +39,7 @@
   },
   {
    "src": "android-icon-512x512.png",
-   "sizes": "192x192",
+   "sizes": "512x512",
    "type": "image/png"
   }
  ],

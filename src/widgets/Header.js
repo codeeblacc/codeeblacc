@@ -6,6 +6,7 @@ export default function Header() {
   const header = useRef(0);
   const slick = useRef(0);
   const menu = useRef(0);
+  const menuAlt = useRef(0);
   const sidemenu = useRef(0);
 
   useEffect(() => {
@@ -37,10 +38,18 @@ export default function Header() {
         open = false;
       }
     });
+
+    menuAlt.current.addEventListener("click", () => {
+      menu.current.classList.remove('open');
+      sidemenu.current.removeAttribute('style');
+      body.removeAttribute('style');
+      open = false;
+    })
   }, [header]);
 
   return (
-    <header ref={header}>
+    <>
+      <header ref={header}>
       <div className="container">
           <div className="row center-align">
             <div className="column large-2 medium-4 small-6 flex center-align">
@@ -63,25 +72,27 @@ export default function Header() {
             </div>
           </div>
       </div>
-      <div className="sidemenu" ref={sidemenu}>
-        <div className="container">
-          <div className="header-break"></div>
-          <p>Africa, Ghana<br />Software Designer & Developer</p>
-          <div className="modal-header-bar"></div>
-          <br />
-          <p className="smoke-text">contacts</p>
-          <ul>
-            <li><a href="mailto:codeeblacc@gmail.com">Email</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://github.com/codeeblacc">Github</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://instagram.com/mcblacc">Instagram</a></li>
-            <li><a target="_blank" rel="noreferrer" href="https://t.me/codeeblacc">Telegram</a></li>
-          </ul>
-          <div className="footer flex justify-space-between">
-            <p><span className="smoke-text">&copy; { new Date().getFullYear() }</span> codeeblacc. All rights reserved.</p>
-            <span>@codee</span>
-          </div>
+    </header>
+    <div className="sidemenu" ref={sidemenu}>
+      <div className="container">
+        <div className="menu hide-on-med-and-large open" ref={menuAlt}></div>
+        <div className="header-break"></div>
+        <p>Africa, Ghana<br />Software Designer & Developer</p>
+        <div className="modal-header-bar"></div>
+        <br />
+        <p className="smoke-text">contacts</p>
+        <ul>
+          <li><a href="mailto:codeeblacc@gmail.com">Email</a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://github.com/codeeblacc">Github</a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://instagram.com/mcblacc">Instagram</a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://t.me/codeeblacc">Telegram</a></li>
+        </ul>
+        <div className="footer flex justify-space-between">
+          <p><span className="smoke-text">&copy; { new Date().getFullYear() }</span> codeeblacc. All rights reserved.</p>
+          <span>@codee</span>
         </div>
       </div>
-    </header>
+    </div>
+    </>
   )
 }
