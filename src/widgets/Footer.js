@@ -83,7 +83,7 @@ export class Footer extends React.Component {
               <Link to="#" onClick={this.handleTop} className="link">Goto Top</Link>
             </div>
             <div className="large-4 medium-5 small-9 flex center-align justify-end">
-              <p><span className="smoke-text">Copyright &copy;.</span> BLACC&trade; {new Date().getFullYear()}.</p>
+              <p><span className="smoke-text">Copyright &copy;.</span> blacc&trade; {new Date().getFullYear()}.</p>
             </div>
           </div>
         </div>
