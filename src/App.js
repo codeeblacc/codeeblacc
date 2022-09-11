@@ -12,7 +12,7 @@ import './assets/css/element.css';
 import { cacheImages } from './utils';
 
 export class App extends React.Component {
-  loadImages = async () => {
+  loadAssets = async () => {
     const loader = document.querySelector('.preloader');
     const pageRoutes = document.querySelector('.pageRoutes');
 
@@ -27,7 +27,7 @@ export class App extends React.Component {
       "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-03.png",
       "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-04.png",
       "https://codeeblacc.s3.us-west-2.amazonaws.com/cstud-02-05.gif",
-    ]
+    ];
 
     await cacheImages(imagesList);
 
@@ -42,10 +42,8 @@ export class App extends React.Component {
     }, 4000);
   }
 
-  componentDidMount() {
-    this.loadImages();
-  }
-  
+  componentDidMount() { this.loadAssets(); }
+
   render() {
     return (
       <BrowserRouter>
